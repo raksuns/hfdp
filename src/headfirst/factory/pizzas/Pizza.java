@@ -34,9 +34,11 @@ abstract public class Pizza {
 		display.append("---- " + name + " ----\n");
 		display.append(dough + "\n");
 		display.append(sauce + "\n");
+		
 		for (int i = 0; i < toppings.size(); i++) {
 			display.append((String )toppings.get(i) + "\n");
 		}
+		
 		return display.toString();
 	}
 }
