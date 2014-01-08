@@ -51,7 +51,6 @@ public class UserInput {
 	public static void main(String[] args) {
 
 		UserInput ui = new UserInput();
-		
 		ui.start();
 	}
 }
