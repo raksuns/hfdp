@@ -38,13 +38,13 @@ public class UserInput {
 
 		if(inputValue != null && !"".equals(inputValue)) {
 			obo.setProductId(Integer.parseInt(inputValue));
-		}
 
-		System.out.print("주문 수량 :");
-		inputValue = sc.nextLine();
+			System.out.print("주문 수량 :");
+			inputValue = sc.nextLine();
 
-		if(inputValue != null && !"".equals(inputValue)) {
-			obo.setCount(Integer.parseInt(inputValue));
+			if(inputValue != null && !"".equals(inputValue)) {
+				obo.setCount(Integer.parseInt(inputValue));
+			}
 		}
 	}
 
